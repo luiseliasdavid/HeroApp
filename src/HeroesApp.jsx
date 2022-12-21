@@ -1,3 +1,4 @@
+import { AuthProvider } from "./auth/context/AuthProvider"
 import { AppRouter } from "./router/AppRouter"
 
 
@@ -5,9 +6,9 @@ function HeroesSpa() {
   
 
   return (
-    <>
-      <AppRouter/>
-    </>
+    <AuthProvider>
+      <AppRouter />
+    </AuthProvider>
   )
 }
 

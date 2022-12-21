@@ -5,12 +5,13 @@ import { BrowserRouter } from "react-router-dom";
 
 import HeroesSpa from './HeroesApp';
 import './Styles.css'
+import 'animate.css';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
  // <React.StrictMode>
    <BrowserRouter>
-     <HeroesSpa />
+     <HeroesSpa  />
    </BrowserRouter>
 //  </React.StrictMode>,
 )
